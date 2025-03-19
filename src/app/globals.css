@@ -22,3 +22,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-background-img {
+  background-image: url(../assets/images/background_login.jpg);
+  background-size: cover;
+  object-fit: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+
+}
+
